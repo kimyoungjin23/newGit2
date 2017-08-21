@@ -5,4 +5,6 @@ lala=999
 parseFloat(x.value)
 */
 console.log(x); 
-x.onekeyup=function(ev){console.log('you pressed x:',this)}
+x.onkeyup=y.onkeyup=function(ev){
+    z.textContent=parseFloat(x.value)+parseFloat(y.value)
+}
